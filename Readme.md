@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anna Pavshinskaya](https://up.htmlacademy.ru/htmlcss/33/user/561707).
-* Наставник: `Анна Лисененкова`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena). 
 
 ---
 
