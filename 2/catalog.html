@@ -59,19 +59,16 @@
             <legend class="catalog-filter-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input type="checkbox" name="swimming-pool" checked>Бассейн
-                </label>
+                  <input type="checkbox" name="swimming-pool" id="filter-swim" checked>
+                  <label for="filter-swim" class="control">Бассейн</label>
               </li>
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input type="checkbox" name="parking" checked>Парковка
-                </label>
+                  <input type="checkbox" name="parking" id="filter-park" checked>
+                  <label for="filter-park" class="control">Парковка</label>
               </li>
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input type="checkbox" name="wi-fi">Wi-Fi
-                </label>
+                  <input type="checkbox" name="wi-fi" id="filter-wf">
+                  <label for="filter-wf" class="control">Wi-Fi</label>
               </li>
             </ul>
           </fieldset>
@@ -80,19 +77,16 @@
             <legend class="catalog-filter-title">Тип жилья</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="inn-kind" value="hotel" checked>Гостиница
-                </label>
+                  <input class="control-input" type="radio" name="inn-kind" value="hotel" id="sort-hotel" checked>
+                  <label for="sort-hotel" class="control">Гостиница</label>
               </li>
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="inn-kind" value="motel">Мотель
-                </label>
+                  <input class="control-input" type="radio" name="inn-kind" value="motel" id="sort-motel">
+                  <label for="sort-motel" class="control">Мотель</label>
               </li>
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="inn-kind" value="apartment">Апартамент
-                </label>
+                  <input class="control-input" type="radio" name="inn-kind" value="apartment" id="sort-app">
+                  <label for="sort-app" class="control">Апартамент</label>
               </li>
             </ul>
           </fieldset>
@@ -199,7 +193,7 @@
     </section>
     <section class="subscribe">
       <h2 class="visually-hidden">Рассылка</h2>
-      <h3>Подпишитесь на рассылку</h3>
+      <h2>Подпишитесь на рассылку</h2>
       <p class="subscribe-text">Только полезная информация и никакого спама,
         честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
