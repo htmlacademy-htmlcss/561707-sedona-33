@@ -42,5 +42,32 @@ body {
   line-height: 26px;
   text-decoration: none;
   text-align: center;
-
+  color: inherit;
+}
+.intro {
+  background-image: url("/images/views/index-main-header.background.jpg");
+  mask-image: url("/images/views/welcome.png");
+  mask-image: url("/images/icons/divider.svg");
+}
+.advantages {
+  color: #000000;
+  background-color: #ffffff;
+}
+.advantages-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: #333333;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
 }
