@@ -8,37 +8,38 @@
 </head>
 
 <body>
-  <header class="catalog-header">
-    <nav class="catalog-navigation"></nav>
-    <a class="navigation-logo" href="index.html">
-      <img class="page-header-logo" alt="Логотип Седона" src="images/icons/logo.svg" width="139" height="70">
-    </a>
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a class="navigation-link" href="index.html">Главная</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="about.html">О Седоне</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
-      </li>
-    </ul>
-    <ul class="navigation-list navigation-user">
-      <li class="navigation-user-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Поиск</span>
-        </a>
-      </li>
-      <li class="navigation-user-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Избранное</span>
-        </a>
-      </li>
-      <li class="navigation-user-item">
-        <a class="navigation-link button" href="#">Хочу сюда</a>
-      </li>
-    </ul>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" alt="Логотип Седона" src="images/icons/logo.svg" width="139" height="70">
+      </a>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="about.html">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-user-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
+        <li class="navigation-user-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Избранное</span>
+          </a>
+        </li>
+        <li class="navigation-user-item">
+          <a class="navigation-link button" href="#">Хочу сюда</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main class="main-inner">
     <header class="inner-header">
@@ -59,16 +60,16 @@
             <legend class="catalog-filter-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                  <input type="checkbox" name="swimming-pool" id="filter-swim" checked>
-                  <label for="filter-swim" class="control">Бассейн</label>
+                <input type="checkbox" name="swimming-pool" id="filter-swim" checked>
+                <label for="filter-swim" class="control">Бассейн</label>
               </li>
               <li class="catalog-filter-item">
-                  <input type="checkbox" name="parking" id="filter-park" checked>
-                  <label for="filter-park" class="control">Парковка</label>
+                <input type="checkbox" name="parking" id="filter-park" checked>
+                <label for="filter-park" class="control">Парковка</label>
               </li>
               <li class="catalog-filter-item">
-                  <input type="checkbox" name="wi-fi" id="filter-wf">
-                  <label for="filter-wf" class="control">Wi-Fi</label>
+                <input type="checkbox" name="wi-fi" id="filter-wf">
+                <label for="filter-wf" class="control">Wi-Fi</label>
               </li>
             </ul>
           </fieldset>
@@ -77,16 +78,16 @@
             <legend class="catalog-filter-title">Тип жилья</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                  <input class="control-input" type="radio" name="inn-kind" value="hotel" id="sort-hotel" checked>
-                  <label for="sort-hotel" class="control">Гостиница</label>
+                <input class="control-input" type="radio" name="inn-kind" value="hotel" id="sort-hotel" checked>
+                <label for="sort-hotel" class="control">Гостиница</label>
               </li>
               <li class="catalog-filter-item">
-                  <input class="control-input" type="radio" name="inn-kind" value="motel" id="sort-motel">
-                  <label for="sort-motel" class="control">Мотель</label>
+                <input class="control-input" type="radio" name="inn-kind" value="motel" id="sort-motel">
+                <label for="sort-motel" class="control">Мотель</label>
               </li>
               <li class="catalog-filter-item">
-                  <input class="control-input" type="radio" name="inn-kind" value="apartment" id="sort-app">
-                  <label for="sort-app" class="control">Апартамент</label>
+                <input class="control-input" type="radio" name="inn-kind" value="apartment" id="sort-app">
+                <label for="sort-app" class="control">Апартамент</label>
               </li>
             </ul>
           </fieldset>
@@ -133,7 +134,8 @@
         </li>
         <li class="inn-card-item">
           <a class="inn-card-link" href="inn.html">
-            <img class="inn-card-image" src="images/views/desert-quail-inn.jpg" width="299" height="206" alt="Desert Inn">
+            <img class="inn-card-image" src="images/views/desert-quail-inn.jpg" width="299" height="206"
+              alt="Desert Inn">
             <h3 class="inn-card-title">Desrt Quail Inn</h3>
           </a>
           <p class="inn-card-kind">Гостиница</p>
@@ -229,10 +231,10 @@
       <p class="contacts-phone">
         <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </p>
-      </section>
-      <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-        <img class="html-logo" alt="Логотип HTML Academy" src="images/icons/logo-htmlacademy.svg" width="115" height="34">
-      </a>
+    </section>
+    <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+      <img class="html-logo" alt="Логотип HTML Academy" src="images/icons/logo-htmlacademy.svg" width="115" height="34">
+    </a>
 
   </footer>
 
