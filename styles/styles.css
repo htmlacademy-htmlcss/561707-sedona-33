@@ -23,6 +23,16 @@ body {
   background-color: #ffffff;
 
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .button {
   font-family: inherit;
@@ -56,7 +66,7 @@ body {
   width: 1200px;
   background-image:  url(../images/icons/divider.svg), url(../images/views/intro-background.jpg);
   background-position: bottom;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .advantages {
