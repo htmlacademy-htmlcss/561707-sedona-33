@@ -15,21 +15,27 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
-}
-
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
-  line-height: 1,18;
+  line-height: 26px;
   color: #000000;
   background-color: #ffffff;
 
 }
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .main-header {
   color: #000000;
   background-color: #ffffff;
@@ -45,9 +51,12 @@ body {
   color: inherit;
 }
 .intro {
-  background-image: url("/images/views/index-main-header.background.jpg");
-  mask-image: url("/images/views/welcome.png");
-  mask-image: url("/images/icons/divider.svg");
+  background-color: #ffffff;
+  color: #000000;
+  width: 1200px;
+  background-image:  url(../images/icons/divider.svg), url(../images/views/intro-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .advantages {
   color: #000000;
@@ -70,4 +79,36 @@ body {
   font-size: 22px;
   line-height: 36px;
   text-align: center;
+}
+.advantages-list {
+  text-align: center;
+}
+.advantages-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+.advantages-item-1 {
+  color: #ffffff;
+  background: #83B3D3;
+}
+.advantages-item-inside1{
+  background: #83B3D3 12%;
+
+}
+.contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
 }
