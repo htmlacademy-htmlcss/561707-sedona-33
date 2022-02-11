@@ -20,13 +20,11 @@ body {
     line-height: 1, 18;
     color: #000000;
     background-color: #ffffff;
-    position: absolute;
-    left: 40px;
-    right: 40px;
     top: 0px;
     bottom: 0px;
     background: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
 }
 
 .visually-hidden {
@@ -66,8 +64,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     background-image: url(../images/icons/divider.svg), url(../images/views/intro-background.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background-position: bottom, center;
+    background-size: auto, cover;
     background-repeat: no-repeat;
 }
 
