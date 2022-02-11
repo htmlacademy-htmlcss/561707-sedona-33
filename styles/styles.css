@@ -62,7 +62,7 @@ body {
     color: #000000;
     background-image: url(../images/icons/divider.svg), url(../images/views/intro-background.jpg);
     background-position: bottom, center;
-    background-size: auto, cover;
+    background-size: 100% auto, cover;
     background-repeat: no-repeat;
 }
 
