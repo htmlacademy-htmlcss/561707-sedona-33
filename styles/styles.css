@@ -20,6 +20,9 @@ body {
     line-height: 1, 18;
     color: #000000;
     background-color: #ffffff;
+    position: absolute;
+    left: 40px;
+    right: 40px;
     top: 0px;
     bottom: 0px;
     background: #FFFFFF;
