@@ -70,7 +70,6 @@ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 .intro {
   background-color: #ffffff;
   color: #000000;
-  width: 1200px;
   background-image:  url(../images/icons/divider.svg), url(../images/views/intro-background.jpg);
   background-position: bottom;
   background-size: cover;
