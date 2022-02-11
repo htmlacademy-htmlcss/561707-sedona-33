@@ -30,14 +30,8 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    position: fixed;
+    transform: scale(0);
 }
 
 .button {
@@ -83,7 +77,6 @@ body {
 }
 
 .advantages-title {
-    font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -94,7 +87,6 @@ body {
 
 .advantages-text {
     color: #333333;
-    font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
