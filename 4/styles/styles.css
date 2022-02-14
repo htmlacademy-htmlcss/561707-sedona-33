@@ -46,7 +46,71 @@ body {
     line-height: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    background-color: #615048;
+    background-color: #756257;
+}
+
+.button-reset {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.button-submit {
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    text-transform: uppercase;
+}
+
+.select-control {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.catalog-filter {
+    color: #FFFFFF;
+}
+
+.inn-card-link {
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.inn-card-button {
+    background-color: #756257;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.but-fav {
+    background-color: #83B3D3;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.but-fav-chek {
+    background-color: #7DB54F;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.pagination-link {
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.inner-header-title {
+    color: #FFFFFF;
+}
+
+.breadcrumbs {
+    color: #FFFFFF;
 }
 
 .main-header {
