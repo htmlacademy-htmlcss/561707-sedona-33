@@ -46,7 +46,27 @@ body {
     line-height: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    background-color: #615048;
+    background-color: #756257;
+}
+
+.button-reset {
+    color: #FFFFFF;
+    background-color: ;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.catalog-filter {
+    color: #FFFFFF;
+}
+
+.inner-header-title {
+    color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+    color: #FFFFFF;
 }
 
 .main-header {
