@@ -47,6 +47,8 @@ body {
     font-weight: 700;
     color: #FFFFFF;
     background-color: #756257;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .button-reset {
@@ -88,13 +90,31 @@ body {
     line-height: 21px;
 }
 
-.but-fav {
+.inn-card-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.inn-card-kind {
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.inn-price {
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.btn-favorite {
     background-color: #83B3D3;
     font-size: 16px;
     line-height: 21px;
 }
 
-.but-fav-chek {
+.btn-favorite-check {
     background-color: #7DB54F;
     font-size: 16px;
     line-height: 21px;
@@ -103,6 +123,14 @@ body {
 .pagination-link {
     font-family: inherit;
     text-decoration: none;
+}
+
+.select-control {
+    font-family: inherit;
+}
+
+.sort-and-filter {
+    font-family: inherit;
 }
 
 .inner-header-title {
@@ -226,10 +254,34 @@ body {
     background: rgba(131, 179, 211, 0.12);
 }
 
+.finder-button {
+    background-color: #756257;
+}
+
+.finder-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
 .subscribe {
-    background-image: url(../images/views/index-subscribe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.subscribe-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-index {
+    background-image: url(../images/views/index-subscribe.jpg);
+    color: #FFFFFF;
+}
+
+.field {
+    font-family: inherit;
 }
 
 .inner-header {
