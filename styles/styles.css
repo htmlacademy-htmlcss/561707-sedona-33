@@ -105,6 +105,14 @@ body {
     text-decoration: none;
 }
 
+.select-control {
+    font-family: inherit;
+}
+
+.sort-and-filter {
+    font-family: inherit;
+}
+
 .inner-header-title {
     color: #FFFFFF;
 }
