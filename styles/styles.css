@@ -230,6 +230,13 @@ body {
     text-align: center;
 }
 
+.advantages-number {
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .advantages-list {
     text-align: center;
 }
@@ -243,6 +250,15 @@ body {
 }
 
 .advantages-description {
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.advantages-description-white {
+    color: #ffffff;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.17;
@@ -303,6 +319,13 @@ body {
     font-size: 30px;
     line-height: 1.2;
     text-transform: uppercase;
+}
+
+.finder-text {
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+    color: #333333;
 }
 
 .subscribe {
