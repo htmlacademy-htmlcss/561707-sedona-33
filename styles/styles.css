@@ -19,7 +19,6 @@ body {
     font-size: 22px;
     line-height: 1.18;
     color: #000000;
-    background-color: #ffffff;
     background: #FFFFFF;
     margin: 0;
 }
@@ -356,6 +355,14 @@ body {
 
 .subscribe-text-index {
     color: #ffffff;
+}
+
+.select-number {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.27;
+    color: #333333;
 }
 
 .catalog-filter-title {
