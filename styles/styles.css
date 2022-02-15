@@ -381,6 +381,10 @@ body {
 
 .field {
     font-family: inherit;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000000;
 }
 
 .inner-header {
